@@ -8,8 +8,9 @@ def Main():
     if confirmation == 'n':
         Main()
     Bio = {"Name" : Name, "Age" : Age, "Hometown" : Hometown}
-    print(Bio)
-
+    print(f"Name : {Bio["Name"]}")
+    print(f"Age :  {Bio["Age"]}")
+    print(f"Hometown : {Bio["Hometown"]}")
 
 
 
