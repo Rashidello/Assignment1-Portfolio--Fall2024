@@ -1,4 +1,4 @@
-people = ("Jake", "Zac", "Ian", "Ron", "Sam", "Dave")
+people = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
 
 q1 = input("would you like to see list of people?(y/n) ")
 if q1 == "y":
