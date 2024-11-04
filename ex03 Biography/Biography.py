@@ -1,5 +1,7 @@
 def Main():
-    Name = input("write your name: ")
+    Fname = input("write your name: ")
+    Lname = input("Write your last name: ")
+    Name = Fname + " "+ Lname
     Age = int(input("Enter your age(numbers only!!): "))
     
     Hometown = input("your hometown: ")
