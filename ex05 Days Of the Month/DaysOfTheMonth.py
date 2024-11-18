@@ -13,8 +13,9 @@ def main():
         11 : "30",
         12 : "31"
     }
-
-
+    leapyear = input ("Is it leap year?(y/n)")
+    if leapyear == 'y':
+        months[2] = 29
     m_choise = int(input("choose a month (by number only): "))
 
     if m_choise in months:
@@ -27,4 +28,5 @@ def main():
     else:
         print("Error! Try Again")
         main()
+
 main()
