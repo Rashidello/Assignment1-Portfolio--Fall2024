@@ -17,6 +17,4 @@ def Main():
     print(f"Hometown : {Bio["Hometown"]}")
 
 
-
-
 Main()
