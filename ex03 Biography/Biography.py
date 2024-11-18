@@ -1,8 +1,10 @@
 def Main():
-    Fname = input("write your name: ")
-    Lname = input("Write your last name: ")
-    Name = Fname + " "+ Lname
-    Age = int(input("Enter your age(numbers only!!): "))
+    Name = input("write your name: ")
+    try:
+        Age = int(input("Enter your age(numbers only!!): "))
+    except ValueError:
+        print("numbers only!!")
+        Main()
     
     Hometown = input("your hometown: ")
 
