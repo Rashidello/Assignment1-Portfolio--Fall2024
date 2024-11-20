@@ -1,10 +1,10 @@
 def Main():
     Name = input("write your name: ")
     try:
-        Age = int(input("Enter your age(numbers only!!): "))
+      Age = int(input("Enter your age(numbers only!!): "))
     except ValueError:
-        print("numbers only!!")
-        Main()
+      print("numbers only!!")
+      Main()
     
     Hometown = input("your hometown: ")
 
