@@ -16,8 +16,10 @@ def main():
     leapyear = input ("Is it leap year?(y/n)")
     if leapyear == 'y':
         months[2] = 29
+    try:
     m_choise = int(input("choose a month (by number only): "))
-
+    except ValueError:
+    main() 
     if m_choise in months:
         print(f"{m_choise} is {months[m_choise]}")
         tryagain = input("would you like to try again?(y/n)")
